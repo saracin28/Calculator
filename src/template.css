@@ -1,0 +1,71 @@
+body{
+background-color : #F0FFFF;
+}
+
+h1{
+text-align : center;
+color : indianred;
+margin-bottom : 100px;
+}
+
+.n1{
+margin-left : 50px;
+font-size : xx-large;
+}
+
+.n2{
+margin-left : 50px;
+font-size : xx-large;
+}
+
+.op{
+margin-left : 50px;
+font-size : xx-large;
+ }
+
+.tab{
+text-align : center;
+}
+.button{
+text-align : center;
+margin-top : 50px;
+margin-bottom : 50px;
+}
+.but{
+font-size : x-large;
+background-color : indianred;
+width : 500px;
+size : 400px;
+color : white;
+}
+
+.result{
+text-align : center;
+font-size : xx-large;
+}
+
+input{
+height: 40px;
+font-size : 20px;
+text-align : center;
+}
+
+select{
+height : 40px;
+}
+
+option{
+font-size : 20px;
+}
+
+.resTxt{
+color : indianred
+}
+
+html{
+border-left : 10px double red;
+border-right : 10px double red;
+height: 1000px;
+margin-left: 40px;
+margin-right: 40px;
+}

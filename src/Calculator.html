@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculate.app</title>
+    <link rel="stylesheet" href="template.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+<h1>Simple Calculator</h1>
+<form class="tab">
+    <label class="n1">Number 1</label>
+    <input type="number" ;
+           id="firstNumber" />
+
+    <label class="n2">Number 2</label>
+    <input type="number" ;
+           id="secondNumber" />
+
+    <label class="op">Operation</label>
+    <select id="operation" ;
+            value="text">
+        <option id="sum" >SUM</option>
+        <option id="multiplication">MULTIPLICATION</option>
+        <option id="division">DIVISION</option>
+    </select>
+</form>
+
+<div class="button">
+<button class="but" type="button" onclick="solve()">Calculate</button></div>
+
+<div class="result">Result:
+    <label class="resTxt" type="text" id="result" readonly></label>
+
+</div>
+<hr size="3" color="grey" width="1000px">
+
+</body>
+
+</html>
